@@ -17,3 +17,5 @@ spec:
           image: projectmonai/monailabel:latest
           command: ["sleep"]
           args: ["infinity"]
+          ports:
+          - containerPort: 8000
