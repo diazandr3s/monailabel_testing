@@ -25,6 +25,10 @@ kubectl delete -f FILE_NAME.yaml -> Delete pod from the "root"
 kubectl describe pod POD_NAME -> Describe pod logs
 
 
+
+### Questions
+
+
 What is a namespace?
 
 What is the Bastion "pod"?
