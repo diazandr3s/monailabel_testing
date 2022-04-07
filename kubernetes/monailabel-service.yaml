@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: monailabel-service
+spec:
+  type: NodePort
+  selector:
+    app: monailabel
+  ports:
+    - port: 22
+      targetPort: 22
+      name: ssh
+      protocol: TCP

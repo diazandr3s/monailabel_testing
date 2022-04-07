@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: monailabel-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: monailabel
+  template:
+    metadata:
+      labels:
+        app: monailabel
+    spec:
+      containers:
+        - name: monailabel-deployment-container
+          image: projectmonai/monailabel:latest
+          command: ["sleep"]
+          args: ["infinity"]
