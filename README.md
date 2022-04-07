@@ -23,3 +23,14 @@ kubectl delete pod POD_NAME -> Delete pod name
 kubectl delete -f FILE_NAME.yaml -> Delete pod from the "root"
  
 kubectl describe pod POD_NAME -> Describe pod logs
+
+
+What is a namespace?
+
+What is the Bastion "pod"?
+
+What are the types of services? i.e. NodePort, Port, LoadBalancer, Ingress
+
+What the purpose of Helm?
+
+What is Bare-Metal?
